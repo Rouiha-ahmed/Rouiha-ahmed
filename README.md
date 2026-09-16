@@ -1,129 +1,133 @@
-<p align="center">
-  <a href="https://github.com/Rouiha-ahmed">
-    <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,45:0F766E,100:1D4ED8&amp;height=210&amp;section=header&amp;text=Hello!%20I'm%20Rouiha%20Ahmed&amp;fontSize=44&amp;fontColor=FFFFFF&amp;fontAlignY=38&amp;animation=fadeIn" alt="Hello! I&#39;m Rouiha Ahmed" />
-  </a>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=24&amp;pause=1000&amp;color=2f81f7&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=54&amp;lines=Full%20Stack%20Developer" alt="Typing headlines" />
-</p>
+<!-- Custom terminal banner. Both theme variants are included in assets/. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img src="assets/banner-dark.svg" width="100%" alt="Ahmed Rouiha — Full-Stack Developer. Build, learn, repeat.">
+</picture>
 
-<br />
+<br>
+<br>
 
-<h2 align="center">🚀 About Me</h2>
+<img src="assets/ahmed-rouiha.jpeg" width="112" height="112" alt="Ahmed Rouiha">
 
-<p align="center">
-  I'm a passionate Full-Stack Developer focused on building modern, scalable web applications. I enjoy turning ideas into functional products and continuously improving my technical skills
-</p>
+<br>
+<br>
 
-<br />
+<a href="https://github.com/Rouiha-ahmed">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=24&amp;duration=2800&amp;pause=1100&amp;color=AA9BEF&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=60&amp;lines=Ahmed+Rouiha+%7C+Full-Stack+Developer;Next.js+%2F+React+%2F+TypeScript;Turning+ideas+into+real-world+applications" width="100%" alt="Ahmed Rouiha | Full-Stack Developer — Next.js, React and TypeScript">
+</a>
 
+<br>
+
+<a href="https://www.linkedin.com/in/ahmed-rouiha-5a5bb5335/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect on LinkedIn">
+</a>&nbsp;&nbsp;
+<a href="https://github.com/Rouiha-ahmed?tab=repositories">
+  <img src="https://img.shields.io/badge/My_Projects-161B22?style=for-the-badge&amp;logo=github&amp;logoColor=AA9BEF" alt="Explore my GitHub projects">
+</a>
+
+<br>
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=Rouiha-ahmed&amp;style=flat&amp;color=aa9bef&amp;label=profile+views" alt="Profile views">
+
+</div>
+
+---
+
+## This is me :)
+
+Hi, I'm **Ahmed Rouiha**, a **Full-Stack Developer** who enjoys turning ideas into useful web applications. I like working across the stack, connecting the interface, application logic, and database to bring a product to life.
+
+- 🚀 **Currently building:** full-stack applications with **Next.js, React, TypeScript, Prisma, and PostgreSQL**.
+- 🌱 **Currently learning:** **DevOps, Docker, cloud technologies, Java, and Spring Boot**.
+- 🤝 **Let's collaborate on:** open-source projects, web applications, and SaaS products.
+- 🧩 **Exploring next:** cloud architecture and scalable application deployment.
+- 💬 **Ask me about:** Next.js, React, TypeScript, Prisma, PostgreSQL, Docker, and web development.
+- ⚡ **How I learn best:** building real-world projects and improving them one iteration at a time.
+
+<br>
+
+<div align="center">
+
+## My stack
+
+<p>Languages, frameworks, and tools I use or am learning.</p>
+
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css,php,laravel,java,spring,postgres,mysql,mongodb,prisma,docker,git,github,gitlab,vscode&amp;perline=10" width="680" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, HTML, CSS, PHP, Laravel, Java, Spring, PostgreSQL, MySQL, MongoDB, Prisma, Docker, Git, GitHub, GitLab, and VS Code">
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## Signals
+
+<!-- These cards describe current work and learning, without proficiency scores. -->
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <p>🔭 &nbsp;I'm currently working on<br /><br />
-      <strong>Full-stack web applications using Next.js, React, TypeScript, Prisma and PostgreSQL</strong></p>
+    <td width="50%" align="center" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/focus-build-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="assets/focus-build-light.svg">
+        <img src="assets/focus-build-dark.svg" width="440" alt="Currently building: Next.js and React interfaces, TypeScript application logic, and Prisma with PostgreSQL.">
+      </picture>
     </td>
-    <td width="50%" valign="top">
-      <p>🌱 &nbsp;I'm currently learning<br /><br />
-      <strong>DevOps, Docker, cloud technologies, Java &amp; Spring Boot</strong></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <p>👯 &nbsp;I'm looking to collaborate on<br /><br />
-      <strong>Open-source projects, web applications, SaaS products and innovative digital projects</strong></p>
-    </td>
-    <td width="50%" valign="top">
-      <p>🤔 &nbsp;I'm looking for help with<br /><br />
-      <strong>Advanced DevOps, cloud architecture and scalable application deployment</strong></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <p>💬 &nbsp;Ask me about<br /><br />
-      <strong>Next.js, React, TypeScript, PostgreSQL, Prisma, Docker and web development</strong></p>
-    </td>
-    <td width="50%" valign="top">
-      <p>⚡ &nbsp;Fun fact:<br /><br />
-      <strong>I enjoy learning new technologies by building real-world projects</strong></p>
+    <td width="50%" align="center" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/focus-learn-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="assets/focus-learn-light.svg">
+        <img src="assets/focus-learn-dark.svg" width="440" alt="Currently learning: Java and Spring Boot, DevOps and Docker, and cloud architecture and deployment.">
+      </picture>
     </td>
   </tr>
 </table>
 
-<br />
+</div>
 
-<h2 align="center">🛠️ Tech Stack</h2>
+---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&amp;logo=typescript&amp;logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&amp;logo=openjdk&amp;logoColor=ED8B00" alt="Java" />
-  <img src="https://img.shields.io/badge/PHP-0D1117?style=for-the-badge&amp;logo=php&amp;logoColor=A8A4E8" alt="PHP" />
-  <img src="https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&amp;logo=mysql&amp;logoColor=61A5CE" alt="SQL" />
-  <img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&amp;logo=html5&amp;logoColor=E34F26" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&amp;logo=css3&amp;logoColor=38BDF8" alt="CSS3" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-0D1117?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&amp;logo=nextdotjs&amp;logoColor=FFFFFF" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Spring-0D1117?style=for-the-badge&amp;logo=spring&amp;logoColor=6DB33F" alt="Spring" />
-  <img src="https://img.shields.io/badge/Laravel-0D1117?style=for-the-badge&amp;logo=laravel&amp;logoColor=FF2D20" alt="Laravel" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-0D1117?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=06B6D4" alt="Tailwind CSS" />
-</p>
+## Behind the commits
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&amp;logo=postgresql&amp;logoColor=6999E7" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&amp;logo=mysql&amp;logoColor=61A5CE" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&amp;logo=mongodb&amp;logoColor=47A248" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Prisma-0D1117?style=for-the-badge&amp;logo=prisma&amp;logoColor=FFFFFF" alt="Prisma" />
-</p>
+<!-- These live statistics use the services from my previous README. -->
+<a href="https://github.com/Rouiha-ahmed">
+  <img src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=Rouiha-ahmed&amp;show_icons=true&amp;theme=tokyonight&amp;title_color=AA9BEF&amp;icon_color=5EEAD4&amp;text_color=C9D1D9&amp;hide_border=false&amp;border_color=30363D&amp;border_radius=12&amp;bg_color=0D1117" width="480" alt="GitHub statistics for Rouiha-ahmed">
+</a>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&amp;logo=git&amp;logoColor=F05032" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&amp;logo=github&amp;logoColor=FFFFFF" alt="GitHub" />
-  <img src="https://img.shields.io/badge/GitLab-0D1117?style=for-the-badge&amp;logo=gitlab&amp;logoColor=FC6D26" alt="GitLab" />
-  <img src="https://img.shields.io/badge/VS%20Code-0D1117?style=for-the-badge&amp;logo=vscodium&amp;logoColor=38BDF8" alt="VS Code" />
-</p>
+<br>
+<br>
 
-<br />
+<a href="https://github.com/Rouiha-ahmed?tab=repositories">
+  <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=Rouiha-ahmed&amp;layout=compact&amp;theme=tokyonight&amp;title_color=AA9BEF&amp;text_color=C9D1D9&amp;hide_border=false&amp;border_color=30363D&amp;border_radius=12&amp;bg_color=0D1117&amp;langs_count=8" width="400" alt="Most-used languages in my GitHub repositories">
+</a>
 
-<h2 align="center">🔗 Connect With Me</h2>
+<br>
+<br>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/ahmed-rouiha-5a5bb5335/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
-</p>
+<a href="https://github.com/Rouiha-ahmed?tab=overview">
+  <img src="https://github-readme-activity-graph-gold-gamma.vercel.app/graph?username=Rouiha-ahmed&amp;bg_color=0D1117&amp;color=AA9BEF&amp;line=5EEAD4&amp;point=AA9BEF&amp;area=true&amp;hide_border=true" width="100%" alt="GitHub contribution activity for Rouiha-ahmed">
+</a>
 
-<br />
+</div>
 
-<h2 align="center">📊 GitHub Stats</h2>
+---
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=Rouiha-ahmed&amp;show_icons=true&amp;theme=tokyonight&amp;title_color=38BDF8&amp;icon_color=34D399&amp;text_color=C9D1D9&amp;hide_border=false&amp;border_color=30363D&amp;border_radius=12&amp;bg_color=0D1117&amp;count_private=true" alt="stats" />
-  <img height="170" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=Rouiha-ahmed&amp;layout=compact&amp;theme=tokyonight&amp;title_color=38BDF8&amp;icon_color=34D399&amp;text_color=C9D1D9&amp;hide_border=false&amp;border_color=30363D&amp;border_radius=12&amp;bg_color=0D1117&amp;langs_count=8" alt="top langs" />
-</p>
+<div align="center">
 
-<br />
+**Have a project in mind? Let's build something useful.**
 
-<h2 align="center">📈 Contribution Graph</h2>
+<a href="https://www.linkedin.com/in/ahmed-rouiha-5a5bb5335/">Connect with me on LinkedIn</a>
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph-gold-gamma.vercel.app/graph?username=Rouiha-ahmed&amp;bg_color=0D1117&amp;color=38BDF8&amp;line=34D399&amp;point=2F81F7&amp;area=true&amp;hide_border=true" alt="activity graph" />
-</p>
+<br>
+<br>
 
-<br />
+<sub><code>Build. Learn. Repeat. · Ahmed Rouiha</code></sub>
 
-<h2 align="center">💭 Dev Quote</h2>
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=tokyonight" alt="Dev quote" />
-</p>
-
-<br />
-
-<p align="center"><i>⭐️ From <a href="https://github.com/Rouiha-ahmed">Rouiha-ahmed</a></i></p>
-
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,45:0F766E,100:1D4ED8&amp;height=100&amp;section=footer" alt="" />
-</p>
+</div>

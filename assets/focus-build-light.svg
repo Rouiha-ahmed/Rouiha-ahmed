@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 302" width="480" height="302" role="img" aria-labelledby="title desc">
+<title id="title">Currently building</title>
+<desc id="desc">Next.js + React; TypeScript; Prisma + PostgreSQL</desc>
+<style>
+text { font-family: "DejaVu Sans Mono", "SFMono-Regular", Consolas, monospace; }
+.cursor { animation: blink 1.1s steps(1,end) infinite; }
+.intro { animation: arrive .75s ease-out both; }
+@keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
+@keyframes arrive { from { opacity:0; } to { opacity:1; } }
+@media (prefers-reduced-motion: reduce) { .cursor, .intro { animation:none; } }
+</style>
+<rect x="1" y="1" width="478" height="300" rx="14" fill="#FAFBFF" stroke="#D8DEE9" stroke-width="2"/>
+<text x="26" y="33" fill="#0D766C" font-size="12" font-weight="600" letter-spacing="1.4">01 / WORKBENCH</text>
+<text x="26" y="68" fill="#202A3B" font-size="23" font-weight="600" >Currently building</text>
+<path d="M26 88H454" stroke="#D8DEE9"/>
+<rect x="26" y="109" width="3" height="38" rx="1.5" fill="#0D766C"/>
+<text x="42" y="117" fill="#556278" font-size="11" font-weight="500" letter-spacing="1">INTERFACES</text>
+<text x="42" y="141" fill="#202A3B" font-size="18" font-weight="500" >Next.js + React</text>
+<rect x="26" y="171" width="3" height="38" rx="1.5" fill="#0D766C"/>
+<text x="42" y="179" fill="#556278" font-size="11" font-weight="500" letter-spacing="1">APPLICATION LOGIC</text>
+<text x="42" y="203" fill="#202A3B" font-size="18" font-weight="500" >TypeScript</text>
+<rect x="26" y="233" width="3" height="38" rx="1.5" fill="#0D766C"/>
+<text x="42" y="241" fill="#556278" font-size="11" font-weight="500" letter-spacing="1">DATA LAYER</text>
+<text x="42" y="265" fill="#202A3B" font-size="18" font-weight="500" >Prisma + PostgreSQL</text>
+</svg>
