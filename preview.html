@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahmed Rouiha · Profile preview</title>
+  <style>
+    :root { font: 15px/1.5 system-ui, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #0d1117; color: #c9d1d9; }
+    main { max-width: 1240px; margin: auto; padding: 30px; }
+    h1 { color: #aa9bef; font-size: 21px; }
+    h2 { border-bottom: 1px solid #30363d; font-size: 14px; letter-spacing: .1em; margin-top: 40px; padding-bottom: 8px; text-transform: uppercase; }
+    .row { align-items: flex-start; display: flex; flex-wrap: wrap; gap: 20px; }
+    .row > img { flex: 1 1 360px; min-width: 0; }
+    img { display: block; height: auto; max-width: 100%; }
+    .theme { border: 1px solid #30363d; border-radius: 12px; margin-top: 22px; padding: 18px; }
+    .theme.light { background: #fff; color: #1f2328; }
+    .theme.dark { background: #0d1117; }
+    .theme img.banner { width: 100%; }
+    .label { color: #aa9bef; font: 12px ui-monospace, monospace; margin: 0 0 12px; }
+    .light .label { color: #7251b5; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Ahmed Rouiha · GitHub profile assets</h1>
+  <p>Local preview of the light and dark assets used in the README.</p>
+
+  <section class="theme dark" aria-label="Dark theme">
+    <p class="label">DARK MODE</p>
+    <img class="banner" src="assets/banner-dark.svg" alt="Ahmed's animated dark terminal banner">
+    <h2>Signals</h2>
+    <div class="row">
+      <img src="assets/focus-build-dark.svg" alt="Currently building">
+      <img src="assets/focus-learn-dark.svg" alt="Currently learning">
+    </div>
+    <h2>GitHub activity</h2>
+    <div class="row">
+      <img src="assets/card-stats-dark.svg" alt="GitHub statistics">
+      <img src="assets/radar-langs-dark.svg" alt="GitHub language mix">
+    </div>
+  </section>
+
+  <section class="theme light" aria-label="Light theme">
+    <p class="label">LIGHT MODE</p>
+    <img class="banner" src="assets/banner-light.svg" alt="Ahmed's animated light terminal banner">
+    <h2>Signals</h2>
+    <div class="row">
+      <img src="assets/focus-build-light.svg" alt="Currently building">
+      <img src="assets/focus-learn-light.svg" alt="Currently learning">
+    </div>
+    <h2>GitHub activity</h2>
+    <div class="row">
+      <img src="assets/card-stats-light.svg" alt="GitHub statistics">
+      <img src="assets/radar-langs-light.svg" alt="GitHub language mix">
+    </div>
+  </section>
+</main>
+</body>
+</html>

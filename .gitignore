@@ -1,3 +1,5 @@
 .DS_Store
 __pycache__/
 *.py[cod]
+scripts/banner/data/
+scripts/banner/logos/

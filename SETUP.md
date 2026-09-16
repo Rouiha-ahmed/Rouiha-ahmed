@@ -1,24 +1,28 @@
 # Ahmed Rouiha — GitHub profile
 
-1. Extract `ahmed-rouiha-profile.zip`.
-2. Copy `README.md` and the complete `assets/` folder into the root of your profile repository, `Rouiha-ahmed/Rouiha-ahmed`. Keep the relative paths unchanged.
-3. Commit the files. The README references your local banner, focus cards, and portrait.
+This repository displays the profile README for [Rouiha-ahmed](https://github.com/Rouiha-ahmed). The layout is adapted from the supplied `emmi-lili-main.zip` reference and uses Ahmed's own portrait, text, stack, and links.
 
-The banner and focus cards include light and dark variants. The portrait is your supplied photo, copied without editing. Animated typing, technology icons, social badges, profile views, and live GitHub statistics load from external services. The statistics and activity graph use the service addresses supplied in your original README; their live availability could not be verified here.
+The README swaps local SVG assets for light and dark GitHub themes. The animated banner is generated from `assets/ahmed-rouiha.jpeg`; the focus cards are static SVGs. The statistics card and language chart use public GitHub data. A scheduled workflow refreshes those two assets daily with GitHub's built-in token.
 
-`scripts/generate_assets.py` is optional. Include it if you want to regenerate the artwork after editing the text or colors:
+To regenerate the banner after changing the portrait or text:
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r scripts/banner/requirements.txt
+.venv/bin/python scripts/banner/generate.py
+```
+
+To regenerate the focus cards:
 
 ```bash
 python3 scripts/generate_assets.py
 ```
 
-It uses only the Python standard library. No GitHub Action, token, or API key is needed for the included design.
+To refresh public statistics and the language chart locally:
 
-The focus cards list your current work and learning interests; they do not assign skill ratings. The GitHub cards show the data available from their external providers. The repository-language card is not a measure of proficiency.
+```bash
+python3 scripts/cards.py --user Rouiha-ahmed
+python3 scripts/radar.py --github Rouiha-ahmed -o assets/radar-langs --title "GitHub language mix"
+```
 
-Your links:
-
-- GitHub: https://github.com/Rouiha-ahmed
-- LinkedIn: https://www.linkedin.com/in/ahmed-rouiha-5a5bb5335/
-
-The portrait can be omitted by deleting its `<img>` line from `README.md`.
+The Python metrics scripts require network access. No personal access token is required for public data. On GitHub, the workflow uses the repository's built-in `GITHUB_TOKEN`.

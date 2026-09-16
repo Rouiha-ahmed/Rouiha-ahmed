@@ -1,34 +1,22 @@
 <div align="center">
 
-<!-- Custom terminal banner. Both theme variants are included in assets/. -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner-dark.svg" width="100%" alt="Ahmed Rouiha — Full-Stack Developer. Build, learn, repeat.">
+  <img src="assets/banner-dark.svg" width="100%" alt="Ahmed Rouiha — Full-Stack Developer. Animated terminal profile with portrait and development stack.">
 </picture>
 
 <br>
-<br>
-
-<img src="assets/ahmed-rouiha.jpeg" width="112" height="112" alt="Ahmed Rouiha">
-
-<br>
-<br>
 
 <a href="https://github.com/Rouiha-ahmed">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=24&amp;duration=2800&amp;pause=1100&amp;color=AA9BEF&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=60&amp;lines=Ahmed+Rouiha+%7C+Full-Stack+Developer;Next.js+%2F+React+%2F+TypeScript;Turning+ideas+into+real-world+applications" width="100%" alt="Ahmed Rouiha | Full-Stack Developer — Next.js, React and TypeScript">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=26&amp;duration=2600&amp;pause=900&amp;color=AA9BEF&amp;center=true&amp;vCenter=true&amp;width=880&amp;lines=Ahmed+Rouiha+-+Full-Stack+Developer;Next.js+%2F+React+%2F+TypeScript;Building+useful+web+applications" alt="Ahmed Rouiha — Full-Stack Developer building useful web applications">
 </a>
 
 <br>
 
-<a href="https://www.linkedin.com/in/ahmed-rouiha-5a5bb5335/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect on LinkedIn">
-</a>&nbsp;&nbsp;
-<a href="https://github.com/Rouiha-ahmed?tab=repositories">
-  <img src="https://img.shields.io/badge/My_Projects-161B22?style=for-the-badge&amp;logo=github&amp;logoColor=AA9BEF" alt="Explore my GitHub projects">
-</a>
+<a href="https://www.linkedin.com/in/ahmed-rouiha-5a5bb5335/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect on LinkedIn"></a>&nbsp;&nbsp;
+<a href="https://github.com/Rouiha-ahmed?tab=repositories"><img src="https://img.shields.io/badge/Projects-0d1117?style=for-the-badge&amp;logo=github&amp;logoColor=aa9bef" alt="Explore my projects"></a>
 
-<br>
 <br>
 
 <img src="https://komarev.com/ghpvc/?username=Rouiha-ahmed&amp;style=flat&amp;color=aa9bef&amp;label=profile+views" alt="Profile views">
@@ -39,7 +27,7 @@
 
 ## This is me :)
 
-Hi, I'm **Ahmed Rouiha**, a **Full-Stack Developer** who enjoys turning ideas into useful web applications. I like working across the stack, connecting the interface, application logic, and database to bring a product to life.
+Hi, I'm **Ahmed Rouiha**, a **Full-Stack Developer** who enjoys turning ideas into useful web applications. I like working across the stack, connecting interfaces, application logic, and data to bring a product to life.
 
 - 🚀 **Currently building:** full-stack applications with **Next.js, React, TypeScript, Prisma, and PostgreSQL**.
 - 🌱 **Currently learning:** **DevOps, Docker, cloud technologies, Java, and Spring Boot**.
@@ -52,37 +40,32 @@ Hi, I'm **Ahmed Rouiha**, a **Full-Stack Developer** who enjoys turning ideas in
 
 <div align="center">
 
-## My stack
-
-<p>Languages, frameworks, and tools I use or am learning.</p>
+## my stack
 
 <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css,php,laravel,java,spring,postgres,mysql,mongodb,prisma,docker,git,github,gitlab,vscode&amp;perline=10" width="680" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, HTML, CSS, PHP, Laravel, Java, Spring, PostgreSQL, MySQL, MongoDB, Prisma, Docker, Git, GitHub, GitLab, and VS Code">
 
 </div>
 
-<br>
-
 ---
 
 <div align="center">
 
-## Signals
+## signals
 
-<!-- These cards describe current work and learning, without proficiency scores. -->
 <table>
   <tr>
-    <td width="50%" align="center" valign="top">
+    <td width="50%" align="center" valign="middle">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="assets/focus-build-dark.svg">
         <source media="(prefers-color-scheme: light)" srcset="assets/focus-build-light.svg">
-        <img src="assets/focus-build-dark.svg" width="440" alt="Currently building: Next.js and React interfaces, TypeScript application logic, and Prisma with PostgreSQL.">
+        <img src="assets/focus-build-dark.svg" width="400" alt="Currently building: Next.js and React interfaces, TypeScript application logic, and Prisma with PostgreSQL">
       </picture>
     </td>
-    <td width="50%" align="center" valign="top">
+    <td width="50%" align="center" valign="middle">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="assets/focus-learn-dark.svg">
         <source media="(prefers-color-scheme: light)" srcset="assets/focus-learn-light.svg">
-        <img src="assets/focus-learn-dark.svg" width="440" alt="Currently learning: Java and Spring Boot, DevOps and Docker, and cloud architecture and deployment.">
+        <img src="assets/focus-learn-dark.svg" width="400" alt="Currently learning: Java and Spring Boot, DevOps and Docker, and cloud architecture and deployment">
       </picture>
     </td>
   </tr>
@@ -94,26 +77,21 @@ Hi, I'm **Ahmed Rouiha**, a **Full-Stack Developer** who enjoys turning ideas in
 
 <div align="center">
 
-## Behind the commits
+## numbers matter
 
-<!-- These live statistics use the services from my previous README. -->
-<a href="https://github.com/Rouiha-ahmed">
-  <img src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=Rouiha-ahmed&amp;show_icons=true&amp;theme=tokyonight&amp;title_color=AA9BEF&amp;icon_color=5EEAD4&amp;text_color=C9D1D9&amp;hide_border=false&amp;border_color=30363D&amp;border_radius=12&amp;bg_color=0D1117" width="480" alt="GitHub statistics for Rouiha-ahmed">
-</a>
-
-<br>
-<br>
-
-<a href="https://github.com/Rouiha-ahmed?tab=repositories">
-  <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=Rouiha-ahmed&amp;layout=compact&amp;theme=tokyonight&amp;title_color=AA9BEF&amp;text_color=C9D1D9&amp;hide_border=false&amp;border_color=30363D&amp;border_radius=12&amp;bg_color=0D1117&amp;langs_count=8" width="400" alt="Most-used languages in my GitHub repositories">
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
+  <img src="assets/card-stats-dark.svg" width="480" alt="GitHub public repository, star, and follower statistics for Rouiha-ahmed">
+</picture>
 
 <br>
-<br>
 
-<a href="https://github.com/Rouiha-ahmed?tab=overview">
-  <img src="https://github-readme-activity-graph-gold-gamma.vercel.app/graph?username=Rouiha-ahmed&amp;bg_color=0D1117&amp;color=AA9BEF&amp;line=5EEAD4&amp;point=AA9BEF&amp;area=true&amp;hide_border=true" width="100%" alt="GitHub contribution activity for Rouiha-ahmed">
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/radar-langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
+  <img src="assets/radar-langs-dark.svg" width="400" alt="Language mix across Ahmed's public GitHub repositories">
+</picture>
 
 </div>
 
@@ -126,8 +104,7 @@ Hi, I'm **Ahmed Rouiha**, a **Full-Stack Developer** who enjoys turning ideas in
 <a href="https://www.linkedin.com/in/ahmed-rouiha-5a5bb5335/">Connect with me on LinkedIn</a>
 
 <br>
-<br>
 
-<sub><code>Build. Learn. Repeat. · Ahmed Rouiha</code></sub>
+<sub>Build · Learn · Repeat — Ahmed Rouiha</sub>
 
 </div>

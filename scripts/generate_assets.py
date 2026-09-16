@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate the local SVG artwork. Python standard library only."""
+"""Regenerate the two light/dark focus cards. Python standard library only."""
 
 from html import escape
 from pathlib import Path
@@ -46,55 +46,6 @@ def svg(width, height, title, description, content):
     )
 
 
-def banner(p):
-    parts = [
-        f'<rect x="1" y="1" width="1198" height="358" rx="18" fill="{p["bg"]}" stroke="{p["line"]}" stroke-width="2"/>',
-        f'<path d="M19 1H1181Q1199 1 1199 19V54H1V19Q1 1 19 1Z" fill="{p["panel"]}"/>',
-        f'<path d="M1 54H1199" stroke="{p["line"]}"/>',
-        '<circle cx="28" cy="28" r="6" fill="#FF6B6B"/>',
-        '<circle cx="50" cy="28" r="6" fill="#E8BD5A"/>',
-        '<circle cx="72" cy="28" r="6" fill="#62C77A"/>',
-        text(600, 33, "ahmed@dev: ~/workspace", p["muted"], 15, extra='text-anchor="middle"'),
-        text(1160, 33, "profile.sh", p["dim"], 13, extra='text-anchor="end"'),
-        text(40, 105, "$ ./profile.sh --live", p["teal"], 18),
-        '<g class="intro">',
-        text(40, 163, "Ahmed Rouiha", p["text"], 48, 700),
-        text(42, 204, "Full-Stack Developer", p["accent"], 24, 600),
-        text(42, 240, "Turning ideas into useful web applications.", p["muted"], 17),
-    ]
-    x = 42
-    for label, width in [("Next.js", 104), ("React", 88), ("TypeScript", 138), ("PostgreSQL", 138)]:
-        parts.append(f'<rect x="{x}" y="264" width="{width}" height="31" rx="7" fill="{p["pill"]}"/>')
-        parts.append(text(x + width / 2, 285, label, p["accent"], 14, 500, 'text-anchor="middle"'))
-        x += width + 9
-    parts += [
-        '</g>',
-        f'<rect x="730" y="82" width="430" height="217" rx="12" fill="{p["panel"]}" stroke="{p["line"]}"/>',
-        text(752, 112, "developer.json", p["muted"], 14),
-        f'<path d="M730 128H1160" stroke="{p["line"]}"/>',
-        text(752, 154, "{", p["dim"], 16),
-    ]
-    for y, key, value, comma in [
-        (182, "frontend", "Next.js + React", True),
-        (210, "data", "Prisma + PostgreSQL", True),
-        (238, "mindset", "build, learn, repeat", False),
-    ]:
-        parts.append(
-            f'<text x="769" y="{y}" font-size="14.5">'
-            f'<tspan fill="{p["accent"]}">&quot;{key}&quot;</tspan>'
-            f'<tspan fill="{p["muted"]}">: </tspan>'
-            f'<tspan fill="{p["teal"]}">&quot;{value}&quot;</tspan>'
-            f'<tspan fill="{p["muted"]}">{"," if comma else ""}</tspan></text>'
-        )
-    parts += [
-        text(752, 270, "}", p["dim"], 16),
-        text(42, 332, "$ ready for the next build", p["muted"], 15),
-        f'<rect class="cursor" x="288" y="318" width="9" height="18" rx="1" fill="{p["teal"]}"/>',
-        text(1160, 332, "BUILD / LEARN / REPEAT", p["dim"], 12, extra='text-anchor="end"'),
-    ]
-    return svg(1200, 360, "Ahmed Rouiha | Full-Stack Developer", "Terminal-style profile banner with Ahmed's current web development stack.", parts)
-
-
 def focus(p, kind):
     build = kind == "build"
     color = p["teal"] if build else p["accent"]
@@ -124,10 +75,9 @@ def focus(p, kind):
 def main():
     ASSETS.mkdir(parents=True, exist_ok=True)
     for name, palette in THEMES.items():
-        (ASSETS / f"banner-{name}.svg").write_text(banner(palette), encoding="utf-8")
         for kind in ("build", "learn"):
             (ASSETS / f"focus-{kind}-{name}.svg").write_text(focus(palette, kind), encoding="utf-8")
-    print("Generated 6 SVG assets.")
+    print("Generated 4 focus-card SVG assets.")
 
 
 if __name__ == "__main__":
